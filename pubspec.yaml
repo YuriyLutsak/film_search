@@ -1,0 +1,35 @@
+name: film_search
+description: "app for searching films"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  auto_route: ^7.2.0
+  dio: ^5.4.3+1
+  freezed: ^2.5.2
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.9.0
+  flutter_bloc: ^8.1.6
+  flutter_getit: ^2.0.0
+  get_it: ^7.6.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^7.1.1
+  build_runner: ^2.4.9
+
+  flutter_lints: ^2.0.0
+  json_serializable: ^6.8.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/
