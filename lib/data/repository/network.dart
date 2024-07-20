@@ -13,24 +13,7 @@
 //   // body обычно в формате json\
 //   // var example(String https://api.themoviedb.org, ){}
 //
-//   // @RestController
-//   // @RequestMapping(path = "/3/search")
-//   // public class SubscriptionsController {
-//   //
-//   //
-//   //     @PostMapping
-//   // @RequestMapping(path = "/movie")
-//   //     public SubscriptionDTO subscribe(@RequestParam(value = "customerBillingId") final String customerBillingId,
-//   //                                      @RequestParam(value = "paymentSourceId", required = false) final String paymentSourceId,
-//   //                                      @RequestParam(value = "pageId", required = false) final String pageId,
-//   //                                      @RequestParam(value = "period", defaultValue = "monthly") final String period,
-//   //                                      @RequestParam(value = "subscriptionType", defaultValue = "FULL") final SubscriptionType subscriptionType,
-//   //                                      @RequestBody(required = false) final CreateSubscriptionRequest request) {
-//   //         return subscriptionService.createSubscription(customerBillingId,
-//   //             paymentSourceId, pageId, period, subscriptionType, Objects.nonNull(request) ? request.subscribedFrom() : null,
-//   //             Objects.nonNull(request) ? request.couponId() : null);
-//   //     }
-//
+//   
 //   var dio = NetworkService.instance.dio;
 //
 //   Network({required dio});
